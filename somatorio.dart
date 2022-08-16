@@ -9,7 +9,7 @@ void main() {
   try {
     int? num = int.parse(stdin.readLineSync()!);
     somatorio = somatorio_div(num);
-    print("A Soma dos Divisíveis: $somatorio");
+    print("Resultado: $somatorio");
   } catch (e) {
     print("Ocorreu um Erro!");
     print("Execute Novamente e Insira um Valor Válido.");
